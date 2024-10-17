@@ -7,7 +7,7 @@ public class Jugador {
 
         public Jugador() {
             avatar = "Monstro1";
-            edad = 999;
+            edad = 555;
             pais = "Alemania";
         }
 
