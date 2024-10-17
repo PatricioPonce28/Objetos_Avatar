@@ -17,14 +17,24 @@ public class Jugador {
         this.pais = pais;
     }
 
-    public void accion_jugador1(){
+    public int num_saltos(int a){
+            int s = 2+a;
+            return s;
+    }
+
+    public void accion_jugador1(int s){
             System.out.println(avatar +  " puede patear y comer");
             System.out.println("Tiene. " + edad + "años y es de: " + pais);
+            int a = num_saltos(s);
+            System.out.println(a +" Es el número de saltos");
         }
 
-        public void accion_jugador(){
+        public void accion_jugador(int s){
             System.out.println(avatar + " puede patear, correr y saltar");
             System.out.println("Tiene. " + edad + "años y es de: " + pais);
+            int a = num_saltos(s);
+            System.out.println(a+" Es el número de saltos");
             }
+
 
 }
